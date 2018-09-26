@@ -5,7 +5,7 @@ const Hello = ({ title }) => (
   <h1>{title}</h1>
 );
 
-Hello.PropTypes = {
+Hello.propTypes = {
   title: PropTypes.string
 };
 
